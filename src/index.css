@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #9b87f5 0%, #f687b3 100%);
+}
+
