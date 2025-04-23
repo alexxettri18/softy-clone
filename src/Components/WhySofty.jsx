@@ -1,4 +1,6 @@
 import React from "react";
+import { SlCheck } from "react-icons/sl";
+
 
 const WhySofty = () => {
   return (
@@ -21,16 +23,17 @@ const WhySofty = () => {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-lg relative">
               <img
-                src="/babyimg1.ed7587fc.png" // Replace with your image path
+                src="/8.png" // Replace with your image path
                 alt="Softy Baby"
                 className="w-full h-auto object-cover"
               />
               {/* Top Left Tag */}
               <div className="absolute top-4 left-4 bg-[#f3f3ad] text-sm text-gray-900 px-4 py-2 rounded-md shadow-md font-semibold flex items-center gap-2">
-                ✅ No 1 in Personal hygienic
+              <SlCheck />
+              No 1 in Personal hygienic
               </div>
               {/* Bottom Right Tag */}
-              <div className="absolute bottom-4 left-4 bg-[#f3f3ad] text-sm text-gray-900 px-4 py-2 rounded-md shadow-md font-semibold flex items-center gap-2">
+              <div className="absolute bottom-4 right-4 bg-[#f3f3ad] text-sm text-gray-900 px-4 py-2 rounded-md shadow-md font-semibold flex items-center gap-2">
                 📢 Nepal's No.1 Hygiene Brand
               </div>
             </div>

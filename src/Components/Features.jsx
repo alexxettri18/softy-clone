@@ -1,4 +1,5 @@
 import React from "react";
+import { SlCheck } from "react-icons/sl";
 
 const features = [
   {
@@ -124,10 +125,19 @@ const Features = () => {
               {/* Right Image Content */}
               <div className="relative bg-[#e4e488] p-6 rounded-lg border-8 border-purple-800 shadow-xl flex items-center justify-center">
                 <img
-                  src="public/babyimg3.f9c4797c.png" // Replace with actual path
+                  src="/9.png" // Replace with actual path
                   alt="Softy Baby Wipes"
                   className="max-w-full h-auto"
                 />
+                {/* Top Left Tag */}
+              <div className="absolute top-4 left-4 bg-[#f3f3ad] text-sm text-gray-900 px-4 py-2 rounded-md shadow-md font-semibold flex items-center gap-2">
+                              <SlCheck />
+                 No 1 in Personal hygienic
+              </div>
+              {/* Bottom Right Tag */}
+              <div className="absolute bottom-4 right-4 bg-[#f3f3ad] text-sm text-gray-900 px-4 py-2 rounded-md shadow-md font-semibold flex items-center gap-2">
+                📢 Nepal's No.1 Hygiene Brand
+              </div>
               </div>
             </div>
           </section>
